@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Hero from "./_home-components/Hero";
 import FlashDeals from "./_home-components/FlashDeals";
 import BrandCategories from "./_home-components/BrandCategories";
