@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Hero from "./_home-components/Hero";
 import FlashDeals from "./_home-components/FlashDeals";
 import BrandCategories from "./_home-components/BrandCategories";
@@ -9,15 +9,14 @@ import Search from "@/components/shared/navigation/_navigation-components/Search
 
 export default function Home() {
   return (
-      <main >
+    <main>
       <Hero />
-      <Search />
-     <FlashDeals />
-     <BrandCategories />
-     <ElectricDevice />
-     <ApplicancesAccessories />
-     <ShopzIdentity />
-      </main>
-  
+
+      <FlashDeals />
+      <BrandCategories />
+      <ElectricDevice />
+      <ApplicancesAccessories />
+      <ShopzIdentity />
+    </main>
   );
 }
