@@ -1,9 +1,5 @@
-const SecondNavigation =() =>{
-    return(
-        <div>
-            <h1>Second Navigation</h1>
-        </div>
-    )
-}
+const SecondNavigation = () => {
+  return <nav className="bg-primary hidden md:block text-white"></nav>;
+};
 
 export default SecondNavigation;
