@@ -15,7 +15,7 @@ const TopNavigation = () => {
   return (
     <nav className="container mx-auto  flex items-center justify-between">
       {/* Desktop Navigaton */}
-      <div className="w-1/2 flex justify-start mx-[6.6vh]">
+      <div className="w-1/2 flex justify-start ">
         <Link href={"/"}>
           <Image
             src={"https://cdn.shopz.com.bd/media/SHOPZ-LOGO-PNG-9f09e229.webp"}
